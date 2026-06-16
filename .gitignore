@@ -53,3 +53,15 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Linux compiled
+client
+server
+users
+
+# VS Code
+.vscode/
+
+# macOS/Windows system files
+.DS_Store
+Thumbs.db
