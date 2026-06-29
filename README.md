@@ -33,18 +33,18 @@ The project heavily focuses on **Inter-Process Communication (IPC)**, network pr
 
 1. Ensure all source files and the `users.csv` database are in the same directory.
 2. Compile the project using the provided Makefile:
-   '''bash
+   ```bash
    make
-   '''
+   ```
 3. Start the Server:
-   '''bash
+   ```bash
    ./server
-   '''
+   ```
 4. Start the Client (Open a new terminal window):
-   '''bash
+   ```bash
    ./client
-   '''
+   ```
 5. Clean executable files when done:
-   '''bash
+   ```bash
    make clean
-   '''
+   ```
