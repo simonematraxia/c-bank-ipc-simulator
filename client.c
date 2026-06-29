@@ -146,7 +146,7 @@ void *transactions_handler(void* arg) {
     do{
         printf("-----------------------TRANSFER-----------------------\n");
         printf("Recipient: ");
-        scanf("%s", transaction.to);
+        scanf("%63s", transaction.to);
         printf("Amount: ");
         scanf("%d", &transaction.amount);
         strcpy(transaction.from, username);
